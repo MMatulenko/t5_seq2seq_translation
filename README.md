@@ -8,9 +8,12 @@ To use this code, simply open the machine_translation_t5.ipynb notebook file in 
 The notebook loads the Opus Europarl Corpus dataset, preprocesses the data, and trains a model to perform machine translation. The code also includes a translate() function that can be used to translate new sentences using the trained model.
 
 ## Installation
-!pip install transformers /n
-!pip install datasets \n
-!pip install sacrebleu \n
+
+!pip install transformers
+
+!pip install datasets
+
+!pip install sacrebleu
 
 ## Results
 The pretrained T5 models (t5-small and t5-base) show good performance on translating sentences from the "opus_euconst" dataset. As shown in the example translation, the translated sentences are almost identical to the true translations. However, the BLEU score can be improved with additional training, which may take a longer time depending on the resources available.
