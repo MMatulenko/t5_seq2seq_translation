@@ -3,7 +3,7 @@
 This project uses a Seq2Seq model to perform machine translation from English to German. The code is provided as a Colab Notebook.
 
 ## Usage
-To use this code, simply open the t5_seq2seq_translation.ipynb notebook file in a GitHub repository and click on the "Open in Colab" button. This will open the notebook in a new Colab environment, where you can run the code and explore the results.
+To use this code, simply open the translator.ipynb notebook file in a GitHub repository and click on the "Open in Colab" button. This will open the notebook in a new Colab environment, where you can run the code and explore the results.
 
 The notebook loads the Opus Europarl Corpus dataset, preprocesses the data, and trains a model to perform machine translation. The code also includes a translate() function that can be used to translate new sentences using the trained model.
 
